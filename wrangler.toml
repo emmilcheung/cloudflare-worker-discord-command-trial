@@ -1,0 +1,12 @@
+name = "discord-agent-bot"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# Secrets (set via: wrangler secret put <NAME>)
+# Do NOT put actual values here.
+#
+# Required secrets:
+#   DISCORD_PUBLIC_KEY    - Discord Developer Portal → App → General Information
+#   DISCORD_APP_ID        - Discord Developer Portal → App → General Information
+#   DISCORD_BOT_TOKEN     - Discord Developer Portal → App → Bot → Token
+#   LLM_API_KEY           - Your LLM provider API key (OpenAI, Anthropic, etc.)
